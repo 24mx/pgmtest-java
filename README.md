@@ -19,7 +19,7 @@ src/main/java/com/pierceecom/pgmtest
 - ```ProgrammingTasksImpl```
 - ```StackImpl```
 
-**The stack should implement the iterator in LIFO order and you should provide your implementation without using classes from Java Standard Lib**
+**The stack should implement the iterator in LIFO order and you should provide your implementation without using classes from Java Standard Lib or 3rd part libraries**
 
 ### Assessment
 The assessment will be based on following criterias:
