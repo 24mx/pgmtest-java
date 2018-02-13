@@ -6,7 +6,7 @@ package com.pierceecom.pgmtest;
  */
 public interface ProgrammingTasks {
     /**
-     * Vänder på en sträng, ex: "sträng" => "gnärts"
+     * Reverse a string e.g."string" => "gnirts"
      * @param s
      * @return
      */
@@ -15,7 +15,7 @@ public interface ProgrammingTasks {
     }
 
     /**
-     * Räknar ut fibonacci-talet för n. 0,1,1,2,3,5,8,13....
+     * Calculates fibonacci number for 'n' 0,1,1,2,3,5,8,13....
      * @param n
      * @return
      */
@@ -24,7 +24,7 @@ public interface ProgrammingTasks {
     }
 
     /**
-     * Summerar värden som är "tal" i en sträng och ignorerar bokstäver
+     * Sums values that are numeric in a string and ignores characters that are not
      * @param numbers
      * @return
      */
@@ -33,7 +33,7 @@ public interface ProgrammingTasks {
     }
 
     /**
-     * Vänder ordningen i en array
+     * Turns the order in an array
      * @param arr
      * @return
      */
@@ -42,7 +42,7 @@ public interface ProgrammingTasks {
     }
 
     /**
-     * Hittar högsta talet i en array
+     * Finds the larges number in an array
      * @param nums
      * @return
      */
@@ -51,8 +51,9 @@ public interface ProgrammingTasks {
     }
 
     /**
-     * Omvandlar RGB tal till en hexadecimal sträng med inledande #
-     * tal under F (16) inleds med "0"
+     * Transforms RGB numbers to a hexadecimal string starting with #
+     * numbers below F (16)  starts with "0"
+     * e.g. rgbToHex(0,255,0) => "#00FF00"
      * @param r
      * @param g
      * @param b
